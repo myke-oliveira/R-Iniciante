@@ -1,4 +1,4 @@
-library(dplyr, readr)
+library(dplyr); library(readr)
 senado = read_csv("dados/senado.csv")
 # seleção das colunas SenatorUpper e Party
 senadores.partido <- senado %>% select(SenatorUpper, Party)
